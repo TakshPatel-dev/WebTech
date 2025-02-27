@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style(1).css"?>
+<students>
+    <student>
+        <name>Name: taksh patel</name>
+        <age>Age:19</age>
+        <department>Course: CSE</department>
+        <courses>
+            <course>
+                <title>Subject: Python</title>
+                <grade>Grade: A</grade>
+            </course>
+            <course>
+                <title>Subject: Web Technology</title>
+                <grade>Grade: A++</grade>
+            </course>
+        </courses>
+    </student>
+    <student>
+        <name>Name: Vir Lavari</name>
+        <age>Age:22</age>
+        <department>Course: Electronics</department>
+        <courses>
+            <course>
+                <title>Subject: Digital Circuits</title>
+                <grade>Grade: B+</grade>
+            </course>
+            <course>
+                <title>Subject: Physics</title>
+                <grade>Grade: A</grade>
+            </course>
+        </courses>
+    </student>
+    <student>
+        <name>Name: Maitra Prajapati</name>
+        <age>Age:18</age>
+        <department>Course: Civil</department>
+        <courses>
+            <course>
+                <title>Subject: Maths</title>
+                <grade>Grade: A-</grade>
+            </course>
+            <course>
+                <title>Subject: Physics</title>
+                <grade>Grade: B</grade>
+            </course>
+        </courses>
+    </student>
+    <student>
+        <name>Name: Vikas</name>
+        <age>Age:24</age>
+        <department>Course: Mechanical</department>
+        <courses>
+            <course>
+                <title>Subject: Mechatronics</title>
+                <grade>Grade: A+</grade>
+            </course>
+            <course>
+                <title>Subject: Physics</title>
+                <grade>Grade: B+</grade>
+            </course>
+        </courses>
+    </student>
+
+        
+</students>

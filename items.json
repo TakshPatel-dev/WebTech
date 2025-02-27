@@ -1,0 +1,108 @@
+{
+  "Mystery": [
+    {
+      "name": "Sharp Objects",
+      "image": "https://books.toscrape.com/media/cache/32/51/3251cf3a3412f53f339e42cac2134093.jpg",
+      "price": "₹47.82"
+    },
+    {
+      "name": "In a Dark, Dark ...",
+      "image": "https://books.toscrape.com/media/cache/23/85/238570a1c284e730dbc737a7e631ae2b.jpg",
+      "price": "₹19.63"
+    },
+    {
+      "name": "The Past Never Ends",
+      "image": "https://books.toscrape.com/media/cache/89/b8/89b850edb01851a91f64ba114b96acb6.jpg",
+      "price": "₹56.50"
+    },
+    {
+      "name": "A Murder in Time",
+      "image": "https://books.toscrape.com/media/cache/11/aa/11aaad48b5f15e262456ca65294084da.jpg",
+      "price": "₹16.64"
+    },
+    {
+      "name": "The Murder of Roger ...",
+      "image": "https://books.toscrape.com/media/cache/29/fe/29fe70b1b2e5a9ba61d4bd331255e19e.jpg",
+      "price": "₹44.10"
+    },
+    {
+      "name": "The Last Mile (Amos ...",
+      "image": "https://books.toscrape.com/media/cache/37/f1/37f118b4a56d866e1e8b563759d6966c.jpg",
+      "price": "₹54.21"
+    },
+    {
+      "name": "That Darkness (Gardiner and ...",
+      "image": "https://books.toscrape.com/media/cache/44/9e/449ed681142bc336646abee754e96639.jpg",
+      "price": "₹13.92"
+    },
+    {
+      "name": "Tastes Like Fear (DI ...",
+      "image": "https://books.toscrape.com/media/cache/3c/91/3c91d97266bd6dda322089695fb46daf.jpg",
+      "price": "₹10.69"
+    },
+    {
+      "name": "A Time of Torment ...",
+      "image": "https://books.toscrape.com/media/cache/e8/c0/e8c0ba15066bab950ae161fd60949b9a.jpg",
+      "price": "₹48.35"
+    },
+    {
+      "name": "A Study in Scarlet ...",
+      "image": "https://books.toscrape.com/media/cache/8f/a4/8fa41d6caa10e427356b8a590eb4d96b.jpg",
+      "price": "₹16.73"
+    },
+    {
+      "name": "Poisonous (Max Revere Novels ...",
+      "image": "https://books.toscrape.com/media/cache/23/52/2352718971d5e166fa9541a5a7d716fa.jpg",
+      "price": "₹26.80"
+    },
+    {
+      "name": "Murder at the 42nd ...",
+      "image": "https://books.toscrape.com/media/cache/c3/8d/c38d65cd155b67ca025f0655bd1bb095.jpg",
+      "price": "₹54.36"
+    },
+    {
+      "name": "Most Wanted",
+      "image": "https://books.toscrape.com/media/cache/8b/bc/8bbc5ab4c3784b4d9b93eb0fd1fb6fd6.jpg",
+      "price": "₹35.28"
+    },
+    {
+      "name": "Hide Away (Eve Duncan ...",
+      "image": "https://books.toscrape.com/media/cache/57/07/5707c3d5d4fd44d943d51730ba7d429a.jpg",
+      "price": "₹11.84"
+    },
+    {
+      "name": "Boar Island (Anna Pigeon ...",
+      "image": "https://books.toscrape.com/media/cache/d5/81/d58157866ea8f015a8e4c55b23b8c96f.jpg",
+      "price": "₹59.48"
+    },
+    {
+      "name": "The Widow",
+      "image": "https://books.toscrape.com/media/cache/fd/71/fd71fb07247bf911505a351c0670c6dc.jpg",
+      "price": "₹27.26"
+    },
+    {
+      "name": "Playing with Fire",
+      "image": "https://books.toscrape.com/media/cache/90/0b/900bd2e60d56b6480a4e8eb2dddb46d6.jpg",
+      "price": "₹13.71"
+    },
+    {
+      "name": "What Happened on Beale ...",
+      "image": "https://books.toscrape.com/media/cache/c7/ab/c7abb5e32bd37118a87523dcee0a70a6.jpg",
+      "price": "₹25.37"
+    },
+    {
+      "name": "The Bachelor Girl's Guide ...",
+      "image": "https://books.toscrape.com/media/cache/95/d7/95d7541679fcbd579b8a4f2b47231aaf.jpg",
+      "price": "₹52.30"
+    },
+    {
+      "name": "Delivering the Truth (Quaker ...",
+      "image": "https://books.toscrape.com/media/cache/57/31/5731a5d46c2c1e88977eb5e6d1337a2e.jpg",
+      "price": "₹20.89"
+    }
+  ],
+  "Fantasy": [{"name":"Unicorn Tracks","image":"https://books.toscrape.com/media/cache/76/8e/768ea5924ac1ef6297c2be9959c796c2.jpg","price":"₹18.78"},{"name":"Saga, Volume 6 (Saga ...","image":"https://books.toscrape.com/media/cache/43/ae/43aee83ebb31e2122a7215e413770e5c.jpg","price":"₹25.02"},{"name":"Princess Between Worlds (Wide-Awake ...","image":"https://books.toscrape.com/media/cache/b7/e8/b7e84b78be3d9bb79b71156a5e5d4e42.jpg","price":"₹13.34"},{"name":"Masks and Shadows","image":"https://books.toscrape.com/media/cache/ff/e8/ffe81bf98f8386ef29e193abfb6f9c1e.jpg","price":"₹56.40"},{"name":"Crown of Midnight (Throne ...","image":"https://books.toscrape.com/media/cache/66/25/6625e3bbb050de3e42a0c302c0d69f1f.jpg","price":"₹43.29"},{"name":"Avatar: The Last Airbender: ...","image":"https://books.toscrape.com/media/cache/06/18/061811c5845d0e13bc04b2a755f0830f.jpg","price":"₹28.09"},{"name":"A Court of Thorns ...","image":"https://books.toscrape.com/media/cache/c0/88/c08816960890396213a423941af65b8f.jpg","price":"₹52.37"},{"name":"Throne of Glass (Throne ...","image":"https://books.toscrape.com/media/cache/32/d6/32d6aa560e8ddf2a4da1526b95d4c7ab.jpg","price":"₹35.07"},{"name":"The Glittering Court (The ...","image":"https://books.toscrape.com/media/cache/3e/0b/3e0b16851bec08b6cbf78d5f64af9114.jpg","price":"₹44.28"},{"name":"Hollow City (Miss Peregrine’s ...","image":"https://books.toscrape.com/media/cache/e2/60/e260b008b7ea7970562295b7bc64b0cb.jpg","price":"₹42.98"},{"name":"The Star-Touched Queen","image":"https://books.toscrape.com/media/cache/53/5e/535e2be0b423797c2cdc7d98882c820a.jpg","price":"₹46.02"},{"name":"The Hidden Oracle (The ...","image":"https://books.toscrape.com/media/cache/b4/67/b467a4f01ca6ae8464b9425a156c7c32.jpg","price":"₹52.26"},{"name":"The Bane Chronicles (The ...","image":"https://books.toscrape.com/media/cache/9a/33/9a333c4a06ce187c5c9d2f5969ddcac2.jpg","price":"₹44.73"},{"name":"Island of Dragons (Unwanteds ...","image":"https://books.toscrape.com/media/cache/75/b9/75b99691594fde72ccb1831624cfeff6.jpg","price":"₹29.65"},{"name":"Demigods & Magicians: Percy ...","image":"https://books.toscrape.com/media/cache/8f/80/8f8074d9f035c2a0ef8595ad89f7bcc8.jpg","price":"₹37.51"},{"name":"City of Glass (The ...","image":"https://books.toscrape.com/media/cache/00/08/0008e65aa431ed3625ad3a4352f8e90d.jpg","price":"₹56.02"},{"name":"Searching for Meaning in ...","image":"https://books.toscrape.com/media/cache/3b/04/3b045fe0394dc192950a0ec9e3812fe4.jpg","price":"₹38.73"},{"name":"The Star-Touched Queen","image":"https://books.toscrape.com/media/cache/d3/0d/d30dd8b6be6f9fcfd17178e8083238b6.jpg","price":"₹32.30"},{"name":"A Shard of Ice ...","image":"https://books.toscrape.com/media/cache/27/64/27649cb5da52970f4bb2fc5234a48578.jpg","price":"₹56.63"},{"name":"King's Folly (The Kinsman ...","image":"https://books.toscrape.com/media/cache/3e/2d/3e2d526ee062008ab1cbf54f90a5abb2.jpg","price":"₹39.61"}],
+  "Art":[{"name":"Scott Pilgrim's Precious Little ...","image":"https://books.toscrape.com/media/cache/94/b1/94b1b8b244bce9677c2f29ccc890d4d2.jpg","price":"₹52.29"},{"name":"Tsubasa: WoRLD CHRoNiCLE 2 ...","image":"https://books.toscrape.com/media/cache/36/df/36df4caaf1420b1183a8235355d39e69.jpg","price":"₹16.28"},{"name":"This One Summer","image":"https://books.toscrape.com/media/cache/c4/dd/c4ddd9ced89966b0602ec85e00cd5b61.jpg","price":"₹19.49"},{"name":"The Nameless City (The ...","image":"https://books.toscrape.com/media/cache/f4/79/f479de5f305c2ac0512702cf7155bb74.jpg","price":"₹38.16"},{"name":"Saga, Volume 5 (Saga ...","image":"https://books.toscrape.com/media/cache/e1/ea/e1ea6cb36e62ae6dc7b805f68ab9a700.jpg","price":"₹51.04"},{"name":"Rat Queens, Vol. 3: ...","image":"https://books.toscrape.com/media/cache/f3/ef/f3efd43ae0fa85d9b325d5e8783e7af5.jpg","price":"₹50.40"},{"name":"Princess Jellyfish 2-in-1 Omnibus, ...","image":"https://books.toscrape.com/media/cache/78/0b/780b2c28122750c2c383846155815bf7.jpg","price":"₹13.61"},{"name":"Pop Gun War, Volume ...","image":"https://books.toscrape.com/media/cache/c8/2f/c82f629a31b3f47bdb17ac14aa51076d.jpg","price":"₹18.97"},{"name":"Patience","image":"https://books.toscrape.com/media/cache/01/72/01726c619a05114dca75bd840095016d.jpg","price":"₹10.16"},{"name":"Outcast, Vol. 1: A ...","image":"https://books.toscrape.com/media/cache/cb/00/cb004189f548d75ad430d3ed19e6daa9.jpg","price":"₹15.44"},{"name":"orange: The Complete Collection ...","image":"https://books.toscrape.com/media/cache/03/88/03886a8502ca54dbce0d91c2568ab69d.jpg","price":"₹48.41"},{"name":"Lumberjanes, Vol. 2: Friendship ...","image":"https://books.toscrape.com/media/cache/d3/15/d3158e8d3546fb90cced3c1d44a92a34.jpg","price":"₹46.91"},{"name":"Lumberjanes, Vol. 1: Beware ...","image":"https://books.toscrape.com/media/cache/7e/a0/7ea062007ef00107e3c16d336b41fab2.jpg","price":"₹45.61"},{"name":"Lumberjanes Vol. 3: A ...","image":"https://books.toscrape.com/media/cache/5f/b1/5fb1bf88dcfda795606745ce35be5975.jpg","price":"₹19.92"},{"name":"I Hate Fairyland, Vol. ...","image":"https://books.toscrape.com/media/cache/aa/74/aa74004807e97a79aa084b5db329a99b.jpg","price":"₹29.17"},{"name":"I am a Hero ...","image":"https://books.toscrape.com/media/cache/16/d4/16d443437126bf6d536a89312c1995a5.jpg","price":"₹54.63"},{"name":"Giant Days, Vol. 2 ...","image":"https://books.toscrape.com/media/cache/90/6f/906f0168b0e155a7077625499b1737b5.jpg","price":"₹22.11"},{"name":"Danganronpa Volume 1","image":"https://books.toscrape.com/media/cache/78/97/7897eea91c4a85aca58d925861d4afec.jpg","price":"₹51.99"},{"name":"Codename Baboushka, Volume 1: ...","image":"https://books.toscrape.com/media/cache/f6/88/f688a9d6a89fdf38e4e88439ee9eda69.jpg","price":"₹36.72"},{"name":"Camp Midnight","image":"https://books.toscrape.com/media/cache/dd/c9/ddc95df6754df8e71bf969c088056188.jpg","price":"₹17.08"}],
+  "Horror":[{"name":"Security","image":"https://books.toscrape.com/media/cache/da/df/dadfac66a89774b46b10225362724c83.jpg","price":"₹39.25"},{"name":"Follow You Home","image":"https://books.toscrape.com/media/cache/a7/4b/a74b35375ce874153fd352e33bc7bac9.jpg","price":"₹21.36"},{"name":"The Loney","image":"https://books.toscrape.com/media/cache/6d/10/6d10387a0175701d4ff456a0c7eee67b.jpg","price":"₹23.40"},{"name":"Pet Sematary","image":"https://books.toscrape.com/media/cache/7a/72/7a72465b21dbf998323e37b31f9a3f4a.jpg","price":"₹10.56"},{"name":"Doctor Sleep (The Shining ...","image":"https://books.toscrape.com/media/cache/55/bf/55bfc858c1cb19867e41415532ae43c6.jpg","price":"₹40.12"},{"name":"Psycho: Sanitarium (Psycho #1.5)","image":"https://books.toscrape.com/media/cache/02/5c/025c30a378e2a4190e84f1429e81b803.jpg","price":"₹36.97"},{"name":"Can You Keep a ...","image":"https://books.toscrape.com/media/cache/0b/2f/0b2f432cc27132f688fcdf29618521e0.jpg","price":"₹48.64"},{"name":"Red Dragon (Hannibal Lecter ...","image":"https://books.toscrape.com/media/cache/30/66/3066f8bcd2e2ed6b45084355ff084a61.jpg","price":"₹23.37"},{"name":"Dracula the Un-Dead","image":"https://books.toscrape.com/media/cache/13/ff/13fffcde653948339d3427184b7bd0b5.jpg","price":"₹35.63"},{"name":"Night Shift (Night Shift ...","image":"https://books.toscrape.com/media/cache/c0/02/c0029d48c2588e6d2a6a31c9f96088ba.jpg","price":"₹12.75"},{"name":"Needful Things","image":"https://books.toscrape.com/media/cache/2d/e0/2de0eff716ca13d12cf5420e88e1a8b3.jpg","price":"₹47.51"},{"name":"Misery","image":"https://books.toscrape.com/media/cache/7c/93/7c9302e392e128881e926d19f761da33.jpg","price":"₹34.79"},{"name":"It","image":"https://books.toscrape.com/media/cache/f7/b7/f7b73392b12909a1e8261ef3f96c5fd1.jpg","price":"₹25.01"},{"name":"'Salem's Lot","image":"https://books.toscrape.com/media/cache/ee/d3/eed3afc5e444e3da5eec34e2b0036ec7.jpg","price":"₹49.56"},{"name":"The Stand","image":"https://books.toscrape.com/media/cache/3a/7c/3a7c2393061031e7911d7b533b723391.jpg","price":"₹57.86"},{"name":"The Girl with All ...","image":"https://books.toscrape.com/media/cache/41/c7/41c74d82b853606fe98182c417b4669c.jpg","price":"₹49.47"},{"name":"House of Leaves","image":"https://books.toscrape.com/media/cache/14/25/142563ccee483bc07632f9c083a68326.jpg","price":"₹54.89"}],
+  "Classic": [{"name":"The Secret Garden","image":"https://books.toscrape.com/media/cache/c5/46/c5465a06182ed6ebfa40d049258a2f58.jpg","price":"₹15.08"},{"name":"The Metamorphosis","image":"https://books.toscrape.com/media/cache/4a/1b/4a1b6e9c1af75db0dc34ae63344f6883.jpg","price":"₹28.58"},{"name":"The Pilgrim's Progress","image":"https://books.toscrape.com/media/cache/45/bb/45bb59d19eb3aa868293d44809078418.jpg","price":"₹50.26"},{"name":"The Hound of the ...","image":"https://books.toscrape.com/media/cache/1f/b0/1fb03cdabe6001c8a2620f65e025cbd5.jpg","price":"₹14.82"},{"name":"Little Women (Little Women ...","image":"https://books.toscrape.com/media/cache/81/f5/81f559ebe403317226fa8b611e35ce8a.jpg","price":"₹28.07"},{"name":"Gone with the Wind","image":"https://books.toscrape.com/media/cache/27/82/2782701b5c877cb063065b9fc14c5b13.jpg","price":"₹32.49"},{"name":"Candide","image":"https://books.toscrape.com/media/cache/e3/c4/e3c4aba2409bb769a6488805e3fc4709.jpg","price":"₹58.63"},{"name":"Animal Farm","image":"https://books.toscrape.com/media/cache/10/db/10db56354b4550d92270c6f097d9bebc.jpg","price":"₹57.22"},{"name":"Wuthering Heights","image":"https://books.toscrape.com/media/cache/93/4e/934e966c1ddf559d3ac2b5c1407aaf1e.jpg","price":"₹17.73"},{"name":"The Picture of Dorian ...","image":"https://books.toscrape.com/media/cache/a6/72/a67245346daa38c2b23a4fc64c6e7115.jpg","price":"₹29.70"},{"name":"The Complete Stories and ...","image":"https://books.toscrape.com/media/cache/42/c4/42c48f11b7e70a0f76c5ba9cb5c5018a.jpg","price":"₹26.78"},{"name":"Beowulf","image":"https://books.toscrape.com/media/cache/dd/6e/dd6e7b84e99f3b4b5655ea0db74af2b4.jpg","price":"₹38.35"},{"name":"And Then There Were ...","image":"https://books.toscrape.com/media/cache/21/bf/21bf2eb0bff3134837def8bd40845ba0.jpg","price":"₹35.01"},{"name":"The Story of Hong ...","image":"https://books.toscrape.com/media/cache/ab/16/ab16eb035cc58809a73c4699477de9cb.jpg","price":"₹43.19"},{"name":"The Little Prince","image":"https://books.toscrape.com/media/cache/c0/78/c078355608dd81c7c5e4f5e1c5f73d23.jpg","price":"₹45.42"},{"name":"Sense and Sensibility","image":"https://books.toscrape.com/media/cache/7d/53/7d53e2264b9647ee307259be9f73585d.jpg","price":"₹37.46"},{"name":"Of Mice and Men","image":"https://books.toscrape.com/media/cache/0f/ca/0fca4597765ffacdb7bd529fc5eb88fa.jpg","price":"₹47.11"},{"name":"Emma","image":"https://books.toscrape.com/media/cache/09/63/09638baaef52f03827c215029c632a13.jpg","price":"₹32.93"},{"name":"Alice in Wonderland (Alice's ...","image":"https://books.toscrape.com/media/cache/96/ee/96ee77d71a31b7694dac6855f6affe4e.jpg","price":"₹55.53"}]
+}

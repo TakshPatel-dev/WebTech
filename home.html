@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- importing fonts/css/icons-->
+    <style>
+      :root{
+    background-color: rgb(240, 248, 255);
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 4px;
+}
+body{margin: 0;}
+.Main-Container{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topNav{
+    width: 100%;
+    box-shadow:4px 4px 15px rgba(169, 169, 169, 0.335),-2px -2px 15px rgba(169, 169, 169, 0.335);
+    border: none;
+    z-index: 10;
+}
+.topNav li{list-style: none;}
+.Nav-Container-Header{
+    display: flex;
+    background-color:azure;
+    font-size: 5rem;
+    padding: 3.5rem;
+    flex-direction: row;
+    max-height: 10vh;
+
+
+}
+
+.Nav-Container-Header > *{flex: 5 1 100%;align-self: center;}  
+.Nav-Container-Header img{
+    width:19rem;
+    scale: 1.2;
+    background:none;
+    mix-blend-mode:multiply;
+    align-self: self-start;
+    cursor: pointer;
+    
+
+}
+.Nav-Container-Header span .fi{
+    font-size: 30px;
+    cursor: pointer;
+}
+.Nav-Container-Header span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+}
+.Nav-Container-Header span li a{text-decoration: none;cursor: pointer;font-weight: 500;}
+.Nav-Container-Header #user-buttons{display: flex; flex-direction: row;justify-content: center;margin-left: 20rem; }
+.Nav-Container-Header #user-buttons > *{align-self: flex-end;flex: 1 1 50%;font-size: 3rem;}
+.Nav-Container-Header #user-buttons :first-child{position: relative;}
+.drop-down-menu{
+    position: absolute;
+    display:none;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 10px;
+    width: 40rem;
+    height: 51rem;
+    font-size: 6rem;
+    left: 85%;
+    border: 2px solid hsl(271, 76%, 53%);
+    box-shadow: 2px 2px 1px hsl(271, 76%, 53%);
+    z-index: 2;     
+}
+.drop-down-menu a{text-decoration: none;font-weight: 500;}
+.drop-down-menu >*{margin-top: 5rem;}
+.slider{display: none;margin-top: 15px;cursor: pointer;}
+.Slider_Container{display: grid;}
+.Centering-Arrows{display: grid;}
+.prev, .next{
+    font-size: 8rem;
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    align-self: center;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(20, 8, 8);
+    font-weight: bold;
+    transition: 0.2s ease-in;
+    border: 0 3px 3px 0;
+    user-select: none;
+}
+.prev:hover, .next:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.fade{
+    animation: fade;
+    animation-duration: 1.5s;
+}
+.dot{
+    cursor: pointer;
+    height: 1vh;
+    width: 2%;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 500px;
+    display: inline-block;
+    transition:background-color 0.6s ease ;
+    transform: translateY(-20px);
+}
+.active, .dot:hover {
+    background-color: #4a4545;
+  }
+  
+.next{right: 0;border-radius: 3px 0 0 3px;}
+.Item-Title{
+    font-size: 10rem;
+}
+.Mobiles-Slider-Container{
+    height: 300px;
+}
+.Laptop-Slider-Container{
+    height: 300px;
+}
+.Clothes-Slider-Container{
+    height: 300px;
+}
+.KitchenWare-Slider-Container{
+    height: 300px;
+}
+.Accsessories-Slider-Container{
+    height: 300px;
+}
+.More_Product{
+    width:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10rem;
+    border: solid 1px black;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 12px 12px;
+}
+
+.Product_Slider{display: flex;overflow: auto;}
+.Img-Container{display: flex;transition:2s ease;padding: 10px 8px;}
+.Product_Slider img{width:20%;margin-left: 10px;box-shadow: 3px 3px 2px rgb(255, 255, 255);border: solid 1px black;}
+.Img-Container >{flex: 1 1 20%;}
+
+@media all and (max-width: 1000px){
+.Nav-Container-Header{flex-direction: row;flex-wrap: wrap;max-height:fit-content;}
+.Nav-Container-Header span{flex: 1 1 40%;}
+.Nav-Container-Header:first-child{flex-basis: 100%;}
+.Nav-Container-Header #user-buttons{margin-left: 0;flex-direction: row; justify-content: center;text-align: center;}
+.Nav-Container-Header :nth-child(1){flex-basis: 100%;align-self: center;}
+.Nav-Container-Header :nth-child(6){flex-basis: 100%; align-self: center;}
+.drop-down-menu{left: 25%;}
+.slider img{height: 20vh;}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+    </style>
+    <link rel="shortcut icon" href="https://fav.farm🏚️" type="image/x-icon">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.2/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.2/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+<body>
+    <div class="Main-Container">
+       <header>
+        <!--topNav contains navigation bar-->
+          <nav class="topNav">
+            <div class="Nav-Container-Header">
+                
+               <span onclick="document.location.href=`home.html`"><img src="rego.png" alt="BuyIt logo-AIgen"></span>
+                
+                <span>
+                    <i class="fi fi-rr-mobile-notch"></i>
+                  <li><a href="">Mystery</a></li>
+                </span>
+
+                <span>
+                    <i class="fi fi-rs-laptop"></i>  
+                  <li><a href="">Fantasy</a></li>
+                </span>
+                
+                <span>
+                    <i class="fi fi-rr-clothes-hanger"></i>
+                  <li><a href="">Art</a></li>
+                </span>
+                
+                <span>
+                    <i class="fi fi-rs-sunglasses"></i> 
+                  <li><a href="">Horror</a></li>
+                </span>
+                
+                <span>
+                    <i class="fi fi-rs-plate-utensils"></i>
+                  <li><a href="">Classic</a></li>
+                </span>
+                
+                <span id="user-buttons">
+                  <li id="drop-down-menu-parent"><i class="fi fi-rs-user"><i class="fi fi-rr-angle-small-up" id="arrow"></i></i></li>
+                  <li><i class="fi fi-rs-shopping-cart"></i></li>
+                </span>
+            
+            </div>
+          </nav>
+        <!-- dropDownMenu:activates when clicking on profile -->
+          <div class="drop-down-menu">
+            <a href="">MyProfile</a>
+            <a href="">LogOut</a>
+            <a href="">order</a>
+            <a href="">rewards</a>
+          </div>
+       </header>
+        <!--creating a products slider-->
+         <div class="Slider_Container">
+            <div class="slider fade">
+              <img style="width: 100%" src="https://m.media-amazon.com/images/G/31/img21/Books/SeptBB2024/1500x300_Manga._CB563199121_.jpg">
+            </div>
+          <div class="slider fade">
+              <img style="width: 100%;" src="https://m.media-amazon.com/images/G/31/img21/Books/SeptBB2024/1500x300_Story-about-friendships._CB563199121_.jpg">
+            </div>
+          <div class="slider fade">
+              <img style="width: 100%;" src="https://m.media-amazon.com/images/G/31/img21/Books/SeptBB2024/1500x300_Books-on-mental-health._CB563199121_.jpg">
+            </div>
+              <a class="prev" onclick="prev()">&#10094;</a>
+              <a class="next" onclick="next()">&#10095;</a>
+            </div>
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+         </div>
+        <div class="Mystery-Slider-Container"></div>
+        <div class="Fantasy-Slider-Container"></div>
+        <div class="Art-Slider-Container"></div>
+        <div class="Horror-Slider-Container"></div>
+        <div class="Classic-Slider-Container"></div>
+      </div>
+
+
+
+    <script>
+      const drop_down_menu_parent = document.getElementById(`drop-down-menu-parent`);
+const drop_down_menu = document.querySelector(`.drop-down-menu`);
+let arrow = document.getElementById(`arrow`);
+let dot_slider = document.querySelectorAll(`.dot`);
+let img_slider = document.querySelectorAll(`.slider`);
+let slideIndex = 1;
+let genslide;
+let default_scroll = -500;
+let skipButtons = document.querySelectorAll(`[data-skip]`);
+
+//fetching items.json and storing data in itemData var
+let itemData = fetch("./items.json").then(res => res.json()).then(ress =>itemData = ress);
+
+
+
+drop_down_menu_parent.addEventListener(`click`,()=>{if(drop_down_menu.style.display === "flex"){drop_down_menu.style.display = "none";arrow.classList.replace(`fi-rr-angle-small-down`,`fi-rr-angle-small-up`)}else{drop_down_menu.style.display = "flex";arrow.classList.replace(`fi-rr-angle-small-up`,`fi-rr-angle-small-down`)}});
+document.addEventListener(`DOMContentLoaded`,()=>{img_slider[slideIndex-1].style.display = `block`;dot_slider[slideIndex-1].classList.add(`active`);genslide = setInterval(next,8000);
+});
+
+function displaySlides(){
+ if(slideIndex > img_slider.length){slideIndex = 1};
+ if(slideIndex < 1){slideIndex = img_slider.length};
+ img_slider.forEach(Element => {Element.style.display = "none"});
+ dot_slider.forEach(Element =>{Element.classList.replace(`active`,"empty")});
+ img_slider[slideIndex-1].style.display = "block";
+ dot_slider[slideIndex-1].classList.add(`active`);
+}
+function next(){
+    slideIndex ++
+    displaySlides()
+}
+function prev(){
+    slideIndex --
+    clearInterval(genslide)
+    displaySlides()
+}
+function currentSlide(n){
+    slideIndex = n;
+    displaySlides()
+    clearInterval(genslide)
+
+}
+
+function generateRandomProduct(){
+    let url =[];
+    let categoryName = ["Mystery","Fantasy","Art","Horror","Accsessories"]
+    for(k = 0; k <categoryName.length;k++){
+        url = [];
+    for(i = 0; i <=10;i++){
+        switch(k){
+            case 0: url.push(itemData.Mystery[i].image);break;
+            case 1: url.push(itemData.Fantasy[i].image);break;
+            case 2: url.push(itemData.Art[i].image);break;
+            case 3: url.push(itemData.Horror[i].image);break;
+            case 4: url.push(itemData.Classic[i].image);break;
+        }
+}
+var html = `
+         <h1 class="Item-Title">${categoryName[k]}</h1>
+         <div class="Product_Slider">
+          <div class="Img-Container">
+          <img  src="${url[0]}">
+          <img  src="${url[1]}">
+          <img  src="${url[2]}">
+          <img  src="${url[3]}">
+          <img  src="${url[4]}">
+          <img  src="${url[5]}">
+          <img  src="${url[6]}">
+          <img  src="${url[7]}">
+          <img  src="${url[8]}">
+          <img  src="${url[9]}">
+          <img  src="${url[10]}">
+          <div class="More_Product">More</div>
+           </div>
+         </div>
+            `
+document.querySelector(`.${categoryName[k]}-Slider-Container`).innerHTML = html;
+    }
+}
+setInterval(generateRandomProduct,1000)
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+object{
+    width: 100%;
+    height: 100vh;
+}
+students {
+    display: block;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    padding: 20px;
+    width: 100%;
+}
+
+student {
+    display: block;
+    border: 2px  solid #155ce1;
+    
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 18px;
+    background-color: #49b1e6;
+}
+
+
+name {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    color: #5e4a4a;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+
+age, department {
+    display: block;
+    font-size: 16px;
+    color: #0e0202;
+}
+
+
+courses {
+    display: block;
+    margin-top: 10px;
+}
+
+
+course {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin-top: 5px;
+    background-color: #fff;
+}
+
+
+course:nth-child(even) {
+    background-color: #e6f7e6;
+}
+
+
+course:hover {
+    background-color: #d4edda;
+}
+
+
+title {
+    font-weight: bold;
+}
+
+grade {
+    text-align: center;
+    font-size: 14px;
+    color: #d63384;
+}

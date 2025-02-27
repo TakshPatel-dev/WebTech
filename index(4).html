@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navrachana University</title>
+    <style>
+        body {
+            background-color: #e0e0e0; 
+            font-family: Arial, sans-serif;
+            color: #222; 
+            margin: 0;
+            padding: 0;
+        }
+        .mainContainer {
+            width: 100%;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-color: white;
+        }
+        header {
+            background: #002147;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .navBar {
+            display: flex;
+            justify-content: center;
+            background: #004080;
+            padding: 10px 0;
+        }
+        .navBar > a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            transition: background 0.3s;
+        }
+        .navBar > a:hover {
+            background: #002147;
+        }
+        .title {
+            font-size: 40px;
+            margin: 0;
+        }
+        .subtitle {
+            font-size: 18px;
+            margin: 10px 0 20px;
+        }
+        section {
+            margin: 20px 0;
+        }
+        h2 {
+            color: #002147; 
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #002147; 
+            color: white;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #002147;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 0 auto; 
+        }
+        input[type="text"], input[type="date"], input[type="email"], input[type="number"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="radio"] {
+            margin: 10px 5px 10px 0;
+        }
+        label {
+            margin-top: 10px;
+            display: block;
+            font-weight: bold;
+        }
+        button {
+            background-color: #3c763d;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #5cb85c;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainContainer">
+        <header>
+            <h1 class="title">Navrachana University</h1>
+            <p class="subtitle">Your gateway to a brighter future</p>
+            <nav class="navBar">
+                <a href="#Courses">Courses</a>
+                <a href="#RegistrationForm">Registration Form</a>
+                <a href="#stdR">Student Registration</a>
+                <a href="#ContactUs">Contact Us</a>
+                <a href="https://nuv.ac.in/schools/business-and-law/" target="_blank">SBL</a>
+            </nav>
+            <div style="margin-top: 15px; font-size: 18px; width: 80%; margin: 0 auto; text-align: center;">
+                At Navrachana University, we prepare our students for the challenges of the modern world. Our holistic curriculum emphasizes informed application in the real world, ensuring that our graduates are not just knowledgeable but also adaptable and ready to lead change.
+            </div>
+        </header>
+        
+        <section id="Courses">
+            <h2>Courses Offered</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Courses</th>
+                        <th>Subjects</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BTech CSE</td>
+                        <td>
+                            <details>
+                                <summary>View Subjects</summary>
+                                <ul>
+                                    <li>DLD</li>
+                                    <li>Web Technology</li>
+                                    <li>Maths</li>
+                                    <li>Python</li>
+                                </ul>
+                            </details>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Data Science</td>
+                        <td>
+                            <details>
+                                <summary>View Subjects</summary>
+                                <ul>
+                                    <li>DLD</li>
+                                    <li>Web Technology</li>
+                                    <li>Maths</li>
+                                    <li>Python</li>
+                                </ul>
+                            </details>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>BBA</td>
+                        <td>
+                            <details>
+                                <summary>View Subjects</summary>
+                                <ul>
+                                    <li>DLD</li>
+                                    <li>Web Technology</li>
+                                    <li>Maths</li>
+                                    <li>Python</li>
+                                </ul>
+                            </details>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>BSC</td>
+                        <td>
+                            <details>
+                                <summary>View Subjects</summary>
+                                <ul>
+                                    <li>DLD</li>
+                                    <li>Web Technology</li>
+                                    <li>Maths</li>
+                                    <li>Python</li>
+                                </ul>
+                            </details>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="stdR">
+            <h2>Student Registration Form</h2>
+            <form>
+                <label for="name">Enter Your Name</label>
+                <input type="text" id="name" name="name" required placeholder="Enter Your Name">
+                
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required min="2006-12-06">
+                
+                <label for="email">Enter Your Email</label>
+                <input type="email" id="email" name="email" required placeholder="Enter Your Email">
+                
+                <label for="mobile">Enter Your Mobile Number</label>
+                <input type="number" id="mobile" name="mobile" required placeholder="Enter your mobile number" minlength="10" maxlength="10" min="0000000000">
+                
+                <label>Gender</label>
+                <input type="radio" id="male" name="gender" value="male">Male
+                <input type="radio" id="female" name="gender" value="female">Female
+                
+                <label for="about">About Me</label>
+                <textarea id="about" name="about" rows="4" placeholder="Tell us something about yourself"></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="ContactUs">
+            <h2>Contact Us for Collaboration</h2>
+            <form>
+                <label for="collabName">Your Name</label>
+                <input type="text" id="collabName" name="collabName" required placeholder="Enter Your Name">
+                
+                <label for="collabEmail">Your Email</label>
+                <input type="email" id="collabEmail" name="collabEmail" required placeholder="Enter Your Email">
+                
+                <label for="collabPhone">Your Phone Number</label>
+                <input type="number" id="collabPhone" name="collabPhone" required placeholder="Enter Your Phone Number" minlength="10" maxlength="15">
+                
+                <label for="collabInstitution">Your Institution/Organization</label>
+                <input type="text" id="collabInstitution" name="collabInstitution" required placeholder="Enter Your Institution/Organization">
+                
+                <label for="collabMessage">Message</label>
+                <textarea id="collabMessage" name="collabMessage" rows="4" required placeholder="Tell us about your collaboration proposal"></textarea>
+                
+                <button type="submit">Send Inquiry</button>
+            </form>
+        </section>
+                                        
+        <footer>
+            <p>© 2023 Navrachana University. All rights reserved.</p>
+            <div>
+                Admission Inquiry: +91-9998345470<br>
+                Placement Cell: +91-9316988277<br>
+                Accounts Dept: +91-265-2617144<br>
+                HR Dept: +91-265-2617103<br>
+                WhatsApp: +91-9327843239<br>
+                Working Hours: 9am-5pm
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
